@@ -1,5 +1,5 @@
 # Welcome
-I am a researcher and PhD student in computer science at [Carl von Ossietzky Universität Oldenburg, Germany](https://uol.de/en/computingscience/groups/formal-methods/team/cedric-richter) from fall 2019 to spring 2025 (expected). I am part of the [Formal Methods](https://uol.de/en/computingscience/groups/formal-methods) group, and I am supervised by [Heike Wehrhehim](https://uol.de/en/computingscience/groups/formal-methods/team/heike-wehrheim). My research focuses on building intelligent systems for finding bugs and for ensuring the correctness of code.
+I am a researcher and PhD student in computer science at [Carl von Ossietzky Universität Oldenburg, Germany](https://uol.de/en/computingscience/groups/formal-methods/team/cedric-richter) from fall 2019 to spring 2025 (expected). I am part of the [Formal Methods](https://uol.de/en/computingscience/groups/formal-methods) group, and I am supervised by [Heike Wehrheim](https://uol.de/en/computingscience/groups/formal-methods/team/heike-wehrheim). My research focuses on building intelligent systems for finding bugs and for ensuring the correctness of code.
 
 I am currently on the academic job market, applying to PostDoc positions in fields related to AI4SE, Software Engineering and Formal Verification. Please take a look at my [CV](https://cedricrupb.github.io/RichterCV.pdf).
 
