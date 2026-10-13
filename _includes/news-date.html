@@ -1,0 +1,5 @@
+{%- assign event_date = include.item.event_date -%}
+{%- unless event_date -%}
+  {%- assign event_date = include.item.date | date: '%Y-%m-%d' -%}
+{%- endunless -%}
+<time class="{{ include.class | default: 'news-date' }}" datetime="{{ event_date | escape }}">{%- case event_date.size -%}{%- when 4 -%}{{ event_date }}{%- when 7 -%}{%- assign month_date = event_date | append: '-01' -%}{{ month_date | date: '%B %Y' }}{%- else -%}{{ event_date | date: '%B %-d, %Y' }}{%- endcase -%}</time>

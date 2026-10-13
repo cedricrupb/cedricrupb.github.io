@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.title != 'Home' %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="site-shell">
+    <aside class="profile-sidebar" aria-label="About Cedric Richter">
+      <a class="portrait-link" href="{{ '/' | relative_url }}" aria-label="Cedric Richter — home">
+        <img src="{{ '/CR.jpg' | relative_url }}" alt="Portrait of Cedric Richter" class="profile-photo" width="180" height="220">
+      </a>
+      <div class="profile-details">
+        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+        <p class="position">Walter Benjamin Fellow<br>Humboldt-Universität zu Berlin</p>
+        <p class="profile-bio">I study AI-assisted software verification and debugging.</p>
+        <ul class="profile-links" aria-label="Contact and profiles">
+          <li><a href="https://scholar.google.com/citations?user=5Yw10ycAAAAJ">Google Scholar</a></li>
+          <li><a href="https://github.com/cedricrupb">GitHub</a></li>
+          <li><a href="https://bsky.app/profile/cedrichter.bsky.social">Bluesky</a></li>
+        </ul>
+
+      </div>
+    </aside>
+    <div class="content-column">
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>About</a>
+          <a href="{{ '/research/' | relative_url }}"{% if page.url == '/research/' %} aria-current="page"{% endif %}>Research</a>
+          <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} aria-current="page"{% endif %}>Publications</a>
+          <a href="{{ '/news/' | relative_url }}"{% if page.url contains '/news/' %} aria-current="page"{% endif %}>News</a>
+          <a href="{{ '/RichterCV.pdf' | relative_url }}">CV </a>
+        </nav>
+      <main id="main-content" tabindex="-1">
+        {{ content }}
+      </main>
+      <footer class="site-footer">© {{ 'now' | date: '%Y' }} {{ site.title | escape }}</footer>
+    </div>
+  </div>
+</body>
+</html>

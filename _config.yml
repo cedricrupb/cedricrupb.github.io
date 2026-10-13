@@ -1,7 +1,39 @@
-theme: jekyll-theme-minimal
 title: Cedric Richter
-logo: CR.jpg
-description: PostDoc at Luxembourg University
-github:
-  is_user_page: false
-  is_project_page: false
+
+description: >-
+  Walter Benjamin Fellow at Humboldt-Universität zu Berlin.
+  Research in AI-assisted software verification and debugging,
+  building on software engineering, software verification, and machine learning.
+
+url: "https://cedricrupb.github.io"
+baseurl: ""
+
+markdown: kramdown
+
+collections:
+  news:
+    output: true
+    permalink: /news/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: news
+
+# Keep local tooling and generated artifacts out of the published site.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - ruby_compat.rb
+  - _plugins
+  - README.md
+  - AcademicCV2025.docx
+  - vendor
+  - .bundle
