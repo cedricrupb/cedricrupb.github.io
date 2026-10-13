@@ -1,0 +1,337 @@
+---
+- id: roundtrip2026
+  title: 'Round-Trip Mutation Testing: Translating Code to Natural Language Intent
+    and back'
+  authors:
+  - Asma Hamidi
+  - Cedric Richter
+  - Ahmed Khanfir
+  - Mike Papadakis
+  year: 2026
+  venue: International Workshop on Mutation Analysis (Mutation), ICST Workshops
+  status: published
+  url: https://doi.org/10.1109/ICSTW72326.2026.00050
+  preprint: https://arxiv.org/abs/2607.03223
+  sources:
+  - https://conf.researchr.org/details/icst-2026/mutation-2026-papers/7/Round-Trip-Mutation-Testing-Translating-Code-to-Natural-Language-Intent-and-back
+  - https://arxiv.org/abs/2607.03223
+- id: icse2025
+  title: Cooperative Software Verification via Dynamic Program Splitting
+  authors:
+  - Cedric Richter
+  - Marek Chalupa
+  - Marie-Christine Jakobs
+  - Heike Wehrheim
+  year: 2025
+  venue: International Conference on Software Engineering (ICSE)
+  status: published
+  url: https://doi.org/10.1109/ICSE55347.2025.00092
+  sources:
+  - https://doi.org/10.1109/ICSE55347.2025.00092
+  pdf: https://www.sosy-lab.org/research/pub/2025-ICSE.Cooperative_Software_Verification_via_Dynamic_Program_Splitting.pdf
+  artifact: https://doi.org/10.5281/zenodo.14738651
+- id: fmsd2025
+  title: Construction of verifier combinations from off-the-shelf components
+  authors:
+  - Dirk Beyer
+  - Sudeep Kanav
+  - Tobias Kleinert
+  - Cedric Richter
+  year: 2025
+  venue: Formal Methods in System Design
+  status: published
+  url: https://doi.org/10.1007/s10703-024-00449-y
+  sources:
+  - https://doi.org/10.1007/s10703-024-00449-y
+- id: bubaak2025
+  title: 'BUBAAK: Dynamic Cooperative Verification'
+  authors:
+  - Marek Chalupa
+  - Cedric Richter
+  year: 2025
+  venue: Tools and Algorithms for the Construction and Analysis of Systems (TACAS)
+  status: published
+  url: https://doi.org/10.1007/978-3-031-90660-2_14
+  sources:
+  - https://doi.org/10.1007/978-3-031-90660-2_14
+  note: Competition contribution
+- id: chatgpt2024
+  title: Can ChatGPT support software verification?
+  authors:
+  - Christian Janßen
+  - Cedric Richter
+  - Heike Wehrheim
+  year: 2024
+  venue: Fundamental Approaches to Software Engineering (FASE)
+  status: published
+  url: https://doi.org/10.1007/978-3-031-57259-3_13
+  sources:
+  - https://doi.org/10.1007/978-3-031-57259-3_13
+  preprint: https://arxiv.org/abs/2311.02433
+- id: bubaak2024
+  title: 'Bubaak-SpLit: Split what you cannot verify'
+  authors:
+  - Marek Chalupa
+  - Cedric Richter
+  year: 2024
+  venue: Tools and Algorithms for the Construction and Analysis of Systems (TACAS)
+  status: published
+  url: https://doi.org/10.1007/978-3-031-57256-2_20
+  sources:
+  - https://doi.org/10.1007/978-3-031-57256-2_20
+  note: Competition contribution
+- id: ranges2024
+  title: Parallel program analysis on path ranges
+  authors:
+  - Jan Haltermann
+  - Marie-Christine Jakobs
+  - Cedric Richter
+  - Heike Wehrheim
+  year: 2024
+  venue: Science of Computer Programming
+  status: published
+  url: https://doi.org/10.1016/j.scico.2024.103154
+  sources:
+  - https://doi.org/10.1016/j.scico.2024.103154
+  preprint: https://arxiv.org/abs/2402.11938
+- id: neural2023
+  title: 'How to Train Your Neural Bug Detector: Artificial vs Real Bugs'
+  authors:
+  - Cedric Richter
+  - Heike Wehrheim
+  year: 2023
+  venue: International Conference on Automated Software Engineering (ASE)
+  status: published
+  url: https://doi.org/10.1109/ASE56229.2023.00104
+  sources:
+  - https://doi.org/10.1109/ASE56229.2023.00104
+  pdf: https://github.com/cedricrupb/nbfbaselines/blob/main/paper/ase23-preprint.pdf
+  code: https://github.com/cedricrupb/nbfbaselines
+- id: robustness2023
+  title: Robustness Testing of Software Verifiers
+  authors:
+  - Florian Dyck
+  - Cedric Richter
+  - Heike Wehrheim
+  year: 2023
+  venue: Software Engineering and Formal Methods (SEFM)
+  status: published
+  url: https://doi.org/10.1007/978-3-031-47115-5_5
+  sources:
+  - https://doi.org/10.1007/978-3-031-47115-5_5
+- id: instrumentation2023
+  title: Ranged Program Analysis via Instrumentation
+  authors:
+  - Jan Haltermann
+  - Marie-Christine Jakobs
+  - Cedric Richter
+  - Heike Wehrheim
+  year: 2023
+  venue: Software Engineering and Formal Methods (SEFM)
+  status: published
+  url: https://doi.org/10.1007/978-3-031-47115-5_9
+  sources:
+  - https://doi.org/10.1007/978-3-031-47115-5_9
+- id: ranges2023
+  title: Parallel Program Analysis via Range Splitting
+  authors:
+  - Jan Haltermann
+  - Marie-Christine Jakobs
+  - Cedric Richter
+  - Heike Wehrheim
+  year: 2023
+  venue: Fundamental Approaches to Software Engineering (FASE)
+  status: published
+  url: https://doi.org/10.1007/978-3-031-30826-0_11
+  sources:
+  - https://doi.org/10.1007/978-3-031-30826-0_11
+- id: developers2022
+  title: Are Neural Bug Detectors Comparable to Software Developers on Variable Misuse
+    Bugs?
+  authors:
+  - Cedric Richter
+  - Jan Haltermann
+  - Marie-Christine Jakobs
+  - Felix Pauck
+  - Stefan Schott
+  - Heike Wehrheim
+  year: 2022
+  venue: International Conference on Automated Software Engineering (ASE)
+  status: published
+  url: https://doi.org/10.1145/3551349.3561156
+  sources:
+  - https://doi.org/10.1145/3551349.3561156
+- id: mutations2022
+  title: 'Learning Realistic Mutations: Bug Creation for Neural Bug Detectors'
+  authors:
+  - Cedric Richter
+  - Heike Wehrheim
+  year: 2022
+  venue: International Conference on Software Testing, Verification and Validation
+    (ICST)
+  status: published
+  url: https://doi.org/10.1109/ICST53961.2022.00027
+  sources:
+  - https://doi.org/10.1109/ICST53961.2022.00027
+- id: tssb2022
+  title: 'TSSB-3M: Mining Single Statement Bugs at Massive Scale'
+  authors:
+  - Cedric Richter
+  - Heike Wehrheim
+  year: 2022
+  venue: International Conference on Mining Software Repositories (MSR)
+  status: published
+  url: https://doi.org/10.1145/3524842.3528505
+  sources:
+  - https://doi.org/10.1145/3524842.3528505
+  note: Data and Tool Showcase
+  preprint: https://arxiv.org/abs/2201.12046
+- id: combinations2022
+  title: Construction of Verifier Combinations Based on Off-the-Shelf Verifiers
+  authors:
+  - Dirk Beyer
+  - Sudeep Kanav
+  - Cedric Richter
+  year: 2022
+  venue: Fundamental Approaches to Software Engineering (FASE)
+  status: published
+  url: https://doi.org/10.1007/978-3-030-99429-7_3
+  sources:
+  - https://doi.org/10.1007/978-3-030-99429-7_3
+- id: coveritest2021
+  title: CoVeriTest with Adaptive Time Scheduling
+  authors:
+  - Marie-Christine Jakobs
+  - Cedric Richter
+  year: 2021
+  venue: Fundamental Approaches to Software Engineering (FASE)
+  status: published
+  url: https://doi.org/10.1007/978-3-030-71500-7_18
+  sources:
+  - https://doi.org/10.1007/978-3-030-71500-7_18
+  note: Competition contribution
+- id: attention2020
+  title: 'Attend and Represent: A Novel View on Algorithm Selection for Software Verification'
+  authors:
+  - Cedric Richter
+  - Heike Wehrheim
+  year: 2020
+  venue: International Conference on Automated Software Engineering (ASE)
+  status: published
+  url: https://doi.org/10.1145/3324884.3416633
+  sources:
+  - https://doi.org/10.1145/3324884.3416633
+- id: kernels2020
+  title: Algorithm selection for software validation based on graph kernels
+  authors:
+  - Cedric Richter
+  - Eyke Hüllermeier
+  - Marie-Christine Jakobs
+  - Heike Wehrheim
+  year: 2020
+  venue: Automated Software Engineering
+  status: published
+  url: https://doi.org/10.1007/s10515-020-00270-x
+  sources:
+  - https://doi.org/10.1007/s10515-020-00270-x
+- id: pesco2019
+  title: 'PeSCo: Predicting Sequential Combinations of Verifiers'
+  authors:
+  - Cedric Richter
+  - Heike Wehrheim
+  year: 2019
+  venue: Tools and Algorithms for the Construction and Analysis of Systems (TACAS)
+  status: published
+  url: https://doi.org/10.1007/978-3-030-17502-3_19
+  sources:
+  - https://doi.org/10.1007/978-3-030-17502-3_19
+  note: Competition contribution
+- id: regression2026
+  title: On the Risks of using LLM-Generated Tests for Regression Testing
+  authors:
+  - Mohammadali Charoosaei
+  - Cedric Richter
+  - Mike Papadakis
+  year: 2026
+  venue: arXiv:2610.11835
+  status: preprint
+  url: https://arxiv.org/abs/2610.11835
+  sources:
+  - https://arxiv.org/abs/2610.11835
+- id: guidelines2026
+  title: Automatically Evolving Prompt Guidelines for Task-Specific Optimization
+  authors:
+  - Cedric Richter
+  - Salah Ghamizi
+  - Mike Papadakis
+  year: 2026
+  venue: arXiv:2607.14105
+  status: preprint
+  url: https://arxiv.org/abs/2607.14105
+  sources:
+  - https://arxiv.org/abs/2607.14105
+- id: promptrepair2026
+  title: 'From Failing to Passing: Evolving Natural Language Prompt Optimization Rules
+    for LLM Code Generation'
+  authors:
+  - Amal Akli
+  - Melissa Akli
+  - Cedric Richter
+  - Mike Papadakis
+  - Yves Le Traon
+  year: 2026
+  venue: arXiv:2607.05121
+  status: preprint
+  url: https://arxiv.org/abs/2607.05121
+  sources:
+  - https://arxiv.org/abs/2607.05121
+- id: coverage2026
+  title: Prompt Coverage Adequacy
+  authors:
+  - Florian Tambon
+  - Michael Konstantinou
+  - Cedric Richter
+  - Charles Chenouard
+  - Mark Harman
+  - Mike Papadakis
+  year: 2026
+  venue: arXiv:2607.02057
+  status: preprint
+  url: https://arxiv.org/abs/2607.02057
+  sources:
+  - https://arxiv.org/abs/2607.02057
+- id: underspec2026
+  title: 'Underspecification does not imply Incoherence: The Risks of Semantic Collapse
+    in Coding Models'
+  authors:
+  - Cedric Richter
+  - Mike Papadakis
+  year: 2026
+  venue: arXiv:2607.01953
+  status: preprint
+  url: https://arxiv.org/abs/2607.01953
+  sources:
+  - https://arxiv.org/abs/2607.01953
+- id: contracts2025
+  title: 'Beyond Postconditions: Can Large Language Models infer Formal Contracts
+    for Automatic Software Verification?'
+  authors:
+  - Cedric Richter
+  - Heike Wehrheim
+  year: 2025
+  venue: arXiv:2510.12702
+  status: preprint
+  url: https://arxiv.org/abs/2510.12702
+  sources:
+  - https://arxiv.org/abs/2510.12702
+- id: thesis2025
+  title: Neural Bug Detection
+  authors:
+  - Cedric Richter
+  year: 2025
+  venue: PhD thesis, University of Oldenburg
+  status: thesis
+  url: https://oops.uni-oldenburg.de/7224/
+  pdf: https://oops.uni-oldenburg.de/7224/1/RICHNEU25.pdf
+  sources:
+  - https://oops.uni-oldenburg.de/7224/1/RICHNEU25.pdf

@@ -1,0 +1,5 @@
+{%- comment -%}ISO dates sort chronologically; partial dates preserve known precision.
+Year-only entries sort below that year's dated milestones, without assigning a month.
+{%- endcomment -%}
+{%- assign today = 'now' | date: '%Y-%m-%d' -%}
+{%- assign visible_news = site.news | where_exp: 'item', 'item.event_date <= today' | sort: 'event_date' | reverse -%}

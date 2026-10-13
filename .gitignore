@@ -1,1 +1,11 @@
 AcademicCV2025.docx
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+# Checkout-local Ruby compatibility files; never publish or commit these.
+ruby_compat.rb
+_plugins/ruby_compat.rb
+Gemfile.lock

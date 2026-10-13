@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Publications
@@ -7,31 +6,47 @@ permalink: /publications/
 
 # Publications
 
-My research covers software verification, neural bug
-detection, and learning-based methods for software
-engineering.
+My work spans software verification, neural bug detection, and AI-assisted
+software engineering. See my [research overview]({{ '/research/' | relative_url }})
+for an introduction to these topics.
 
-For a complete and regularly updated publication list,
-see my [Google Scholar profile](https://scholar.google.com/citations?user=5Yw10ycAAAAJ).
+[Google Scholar](https://scholar.google.com/citations?user=5Yw10ycAAAAJ) ·
+[DBLP](https://dblp.org/pid/238/3001)
 
-## Selected Publications
+## Conference, Workshop, and Journal Publications
 
-### Cooperative Software Verification
+{% assign published = site.data.publications | where: 'status', 'published' %}
+{% assign years = published | group_by: 'year' | sort: 'name' | reverse %}
+<nav class="publication-years" aria-label="Publication years">
+{% for year in years %}<a href="#publications-{{ year.name }}">{{ year.name }}</a>{% endfor %}
+<a href="#preprints">Preprints</a>
+<a href="#thesis">Thesis</a>
+</nav>
 
-- **Cooperative Software Verification via Dynamic Program Splitting**
-  — ICSE 2025.
+{% for year in years %}
+<h2 id="publications-{{ year.name }}">{{ year.name }}</h2>
+<ul class="publication-list">
+{% for paper in year.items %}{% include publication.html paper=paper %}{% endfor %}
+</ul>
+{% endfor %}
 
-- **Construction of Verifier Combinations from Off-the-Shelf Components**
-  — Formal Methods in System Design, 2025.
+<h2 id="preprints">Preprints</h2>
 
-### Neural Bug Detection
+These manuscripts are available on arXiv; they are listed separately from
+conference and journal publications. 
 
-- **How to Train Your Neural Bug Detector: Artificial vs Real Bugs**
-  — ASE 2023.
+{% assign preprints = site.data.publications | where: 'status', 'preprint' %}
+{% assign preprint_years = preprints | group_by: 'year' | sort: 'name' | reverse %}
+{% for year in preprint_years %}
+<h3>{{ year.name }}</h3>
+<ul class="publication-list">
+{% for paper in year.items %}{% include publication.html paper=paper %}{% endfor %}
+</ul>
+{% endfor %}
 
-### Software Verification and Machine Learning
+<h2 id="thesis">Doctoral Thesis</h2>
 
-- See my [research overview]({{ '/research/' | relative_url }})
-  for additional publications and tools.
-
-A complete bibliography will be added here.
+{% assign theses = site.data.publications | where: 'status', 'thesis' %}
+<ul class="publication-list">
+{% for paper in theses %}{% include publication.html paper=paper %}{% endfor %}
+</ul>

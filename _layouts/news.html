@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<p class="news-back"><a href="{{ '/news/' | relative_url }}">← All news</a></p>
+<h1>{{ page.title | escape }}</h1>
+<p class="news-meta">{% include news-date.html item=page class="announcement-date" %}</p>
+{{ content }}
+{% if page.initiative_url %}
+<p><a href="{{ page.initiative_url | escape }}">{{ page.initiative_link_text | default: 'Learn more' | escape }} →</a></p>
+{% endif %}

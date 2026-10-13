@@ -8,13 +8,13 @@ permalink: /news/
 
 Updates on my research, publications, and academic activities.
 
-{% assign sorted_news = site.news | sort: "date" | reverse %}
+{% include visible-news.html %}
 
-{% for item in sorted_news %}
+{% for item in visible_news %}
 <div class="news-entry">
-  <span class="news-date">{{ item.date | date: "%b %Y" }}</span>
+  {% include news-date.html item=item %}
   <div>
-    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    <a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
     <p>{{ item.excerpt | strip_html | truncatewords: 35 }}</p>
   </div>
 </div>
