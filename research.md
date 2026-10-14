@@ -13,13 +13,9 @@ and reasoning about correctness.
 
 ## AI-assisted Software Verification and Debugging
 
-My current DFG Walter Benjamin project at Humboldt-Universität zu Berlin is
 **SDECOPILOT: Assisting Developers in Building Correct Software with Debugging Agents**.
 
-The project explores how AI can assist developers in understanding program
-behavior, finding bugs, and assessing possible repairs. It aims to combine
-AI-based approaches with established methods of software analysis and
-verification to support reasoning about program correctness.
+Funded through the **DFG Walter Benjamin Programme** at **Humboldt-Universität zu Berlin**.
 
 ## Neural Bug Detection
 

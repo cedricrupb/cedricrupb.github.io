@@ -20,7 +20,7 @@ title: Home
 </section>
 {% endif %}
 
-I am a computer scientist and Walter Benjamin Fellow at
+I am a computer scientist and **Postdoctoral Researcher | DFG Walter Benjamin Programme** at
 Humboldt-Universität zu Berlin. My research focuses on
 **AI-assisted software verification and debugging**, building
 on my background in software engineering, software verification,
@@ -31,10 +31,9 @@ Interdisciplinary Centre for Security, Reliability and Trust
 (SnT), University of Luxembourg, working with Mike Papadakis.
 I received my PhD in computer science from the University of Oldenburg.
 
-In my current project, **SDECOPILOT: Assisting Developers in Building
-Correct Software with Debugging Agents**, I investigate how AI-generated
-hypotheses about intended program behavior can be examined using testing,
-program analysis, and formal verification to discover bugs and support repair.
+**SDECOPILOT: Assisting Developers in Building Correct Software with Debugging Agents**
+
+Funded through the **DFG Walter Benjamin Programme** at **Humboldt-Universität zu Berlin**.
 
 [More about my research]({{ '/research/' | relative_url }})
 
