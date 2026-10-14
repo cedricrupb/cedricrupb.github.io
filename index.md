@@ -20,7 +20,7 @@ title: Home
 </section>
 {% endif %}
 
-I am a computer scientist and **Postdoctoral Researcher | DFG Walter Benjamin Programme** at
+I am a computer scientist and postdoctoral researcher (DFG Walter Benjamin Programme) at
 Humboldt-Universität zu Berlin. My research focuses on
 **AI-assisted software verification and debugging**, building
 on my background in software engineering, software verification,
@@ -30,10 +30,6 @@ Previously, I was a postdoctoral researcher at the
 Interdisciplinary Centre for Security, Reliability and Trust
 (SnT), University of Luxembourg, working with Mike Papadakis.
 I received my PhD in computer science from the University of Oldenburg.
-
-## AI-Assisted Software Verification and Debugging
-
-My research explores how artificial intelligence can support software verification and debugging, with the broader goal of helping developers build more reliable software.
 
 [More about my research]({{ '/research/' | relative_url }})
 

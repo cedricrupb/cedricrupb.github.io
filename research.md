@@ -11,20 +11,6 @@ It builds on my work in software engineering, software verification,
 and machine learning, with an emphasis on investigating program behavior
 and reasoning about correctness.
 
-## AI-assisted Software Verification and Debugging
-
-I study how learning-based methods and automated verification can support
-the detection and analysis of software bugs. My work on neural bug detection
-examines what models learn from developer mistakes and how their performance
-depends on the bugs used for training. My work on software verification
-investigates how different analysis techniques can be combined to reason
-about program correctness.
-
-At the intersection of these areas, I investigate how AI can assist
-verification, including the use of language models to propose loop invariants
-that verification tools can check. I am interested in the capabilities and
-limitations of these methods and how to assess their reliability.
-
 ## Neural Bug Detection
 
 I have investigated how machine learning models can learn
@@ -60,7 +46,7 @@ splitting program paths into ranges.
 My work includes verification tools such as
 [PeSCo-CPA](https://link.springer.com/chapter/10.1007/978-3-030-17502-3_19)
 and
-[BubaaK-SpLit](https://link.springer.com/chapter/10.1007/978-3-031-57256-2_20).
+[Bubaak-SpLit](https://link.springer.com/chapter/10.1007/978-3-031-57256-2_20).
 
 These tools achieved third place in the ReachSafety category
 at SV-COMP 2019 and second place in the SoftwareSystems
