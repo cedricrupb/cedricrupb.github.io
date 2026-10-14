@@ -13,9 +13,17 @@ and reasoning about correctness.
 
 ## AI-assisted Software Verification and Debugging
 
-**SDECOPILOT: Assisting Developers in Building Correct Software with Debugging Agents**.
+I study how learning-based methods and automated verification can support
+the detection and analysis of software bugs. My work on neural bug detection
+examines what models learn from developer mistakes and how their performance
+depends on the bugs used for training. My work on software verification
+investigates how different analysis techniques can be combined to reason
+about program correctness.
 
-Funded through the **DFG Walter Benjamin Programme** at **Humboldt-Universität zu Berlin**.
+At the intersection of these areas, I investigate how AI can assist
+verification, including the use of language models to propose loop invariants
+that verification tools can check. I am interested in the capabilities and
+limitations of these methods and how to assess their reliability.
 
 ## Neural Bug Detection
 

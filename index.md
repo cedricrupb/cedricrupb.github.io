@@ -33,7 +33,7 @@ I received my PhD in computer science from the University of Oldenburg.
 
 ## AI-Assisted Software Verification and Debugging
 
-My research explores how artificial intelligence can support software verification and debugging, with the broader goal of helping developers build more reliable software. My current research is supported by the DFG Walter Benjamin Programme through the SDECOPILOT project.
+My research explores how artificial intelligence can support software verification and debugging, with the broader goal of helping developers build more reliable software.
 
 [More about my research]({{ '/research/' | relative_url }})
 
