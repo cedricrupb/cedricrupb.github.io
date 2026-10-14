@@ -26,10 +26,16 @@ Humboldt-Universität zu Berlin. My research focuses on
 on my background in software engineering, software verification,
 and machine learning.
 
+I investigate how machine learning can learn from developer mistakes to detect
+software bugs, and how different verification techniques can be combined to
+reason about program correctness. My work connects neural bug detection,
+cooperative software verification, and learning-based methods for verification.
+
 Previously, I was a postdoctoral researcher at the
 Interdisciplinary Centre for Security, Reliability and Trust
-(SnT), University of Luxembourg, working with Mike Papadakis.
-I received my PhD in computer science from the University of Oldenburg.
+(SnT), University of Luxembourg.
+I received my PhD in computer science from the University of Oldenburg in 2025,
+with a thesis on [*Neural Bug Detection*](https://oops.uni-oldenburg.de/7224/1/RICHNEU25.pdf).
 
 [More about my research]({{ '/research/' | relative_url }})
 

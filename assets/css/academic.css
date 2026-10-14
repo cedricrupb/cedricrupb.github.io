@@ -49,11 +49,9 @@ img { max-width: 100%; height: auto; }
 }
 .position { margin: 12px 0; font-size: .9rem; line-height: 1.65; }
 .profile-bio { margin: 14px 0; color: var(--muted); font-size: .9rem; }
+.profile-email { margin: 14px 0; color: var(--muted); font-size: .85rem; overflow-wrap: anywhere; }
 .profile-links { display: flex; flex-wrap: wrap; gap: 4px 14px; padding: 0; margin: 18px 0 24px; list-style: none; font-size: .85rem; }
 .profile-links a { text-decoration: none; }
-.email-contact { border: 0; padding: 0; background: none; color: var(--accent); font: inherit; cursor: pointer; }
-.email-contact:hover { text-decoration: underline; text-underline-offset: .18em; }
-.email-contact:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 2px; }
 .site-nav { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 22px; border-bottom: 1px solid var(--border); padding-bottom: 16px; margin-bottom: 28px; }
 .site-nav a { text-decoration: none; color: var(--muted); font-size: .95rem; }
 .site-nav a:hover, .site-nav a[aria-current="page"] { color: var(--accent); }

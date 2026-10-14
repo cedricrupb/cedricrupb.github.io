@@ -9,4 +9,4 @@ sources:
 
 I have joined the Interdisciplinary Centre for Security, Reliability and Trust
 (SnT), University of Luxembourg, as a postdoctoral researcher working with
-Mike Papadakis in the SerVal group.
+[Mike Papadakis](https://mpapad.github.io/) in the SerVal group.
