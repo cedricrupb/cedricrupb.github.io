@@ -31,9 +31,9 @@ Interdisciplinary Centre for Security, Reliability and Trust
 (SnT), University of Luxembourg, working with Mike Papadakis.
 I received my PhD in computer science from the University of Oldenburg.
 
-**SDECOPILOT: Assisting Developers in Building Correct Software with Debugging Agents**
+## AI-Assisted Software Verification and Debugging
 
-Funded through the **DFG Walter Benjamin Programme** at **Humboldt-Universität zu Berlin**.
+My research explores how artificial intelligence can support software verification and debugging, with the broader goal of helping developers build more reliable software. My current research is supported by the DFG Walter Benjamin Programme through the SDECOPILOT project.
 
 [More about my research]({{ '/research/' | relative_url }})
 
